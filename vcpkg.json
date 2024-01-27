@@ -11,15 +11,8 @@
         "libpng"
     ],
     "default-features": [
-        "geometry-preprocessing"
     ],
     "features": {
-        "geometry-preprocessing": {
-            "description": "Preprocessing of non-compliant vector geometry via the Skia library",
-            "dependencies": [ {
-                "name": "skia",
-                "default-features": false
-            } ]
-        }
+        
     }
 }
